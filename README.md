@@ -1,6 +1,8 @@
 # On Nonlinearities in QML Paper Implementation
 
-Brief Summary of the paper "On nonlinear transformations in quantum computation" by Holmes et al. (2021) and implementation of key algorithms in PennyLane.
+This repository provides implementations of basic nonlinear quantum subroutines proposed in *On nonlinear transformations in quantum computation*, including the Quantum Hadamard Product for element-wise multiplication of quantum states and the Generalized Quantum Transpose for weighted transposition. 
+
+In contrast to the paper which uses Qiskit, these implementations are done using the PennyLane quantum machine learning library, providing an alternative implementation. By advancing techniques to perform nonlinear transformations on quantum states, this research aims to enable more powerful quantum algorithms to impact important domains such as quantum machine learning.
 
 ## Paper Reference
 Holmes, Z., Coble, N. J., Sornborger, A. T., & Subaşı, Y. (2023). Nonlinear transformations in quantum computation. _Phys. Rev. Res._, 5(1), 013105. [DOI: 10.1103/PhysRevResearch.5.013105](https://link.aps.org/doi/10.1103/PhysRevResearch.5.013105)
