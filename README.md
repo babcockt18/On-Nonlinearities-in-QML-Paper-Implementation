@@ -14,7 +14,7 @@ Holmes, Z., Coble, N. J., Sornborger, A. T., & Subaşı, Y. (2023). Nonlinear tr
 
 This Jupyter notebook implements the Quantum Hadamard Product algorithm from the paper "On nonlinear transformations in quantum computation".
 
-The Quantum Hadamard Product takes two input quantum states \$\rho(0)\$ and \$\rho(1)\$ and outputs a weighted state \$\rho(0)\rho(1)\$ where the matrix elements are multiplied element-wise.
+The Quantum Hadamard Product takes two input quantum states \$\rho(0)\$ and \$\rho(1)\$ and outputs a weighted state \$\rho(0) \odot \rho(1)\$ where the matrix elements are multiplied element-wise.
 
 #### Key points:
 
