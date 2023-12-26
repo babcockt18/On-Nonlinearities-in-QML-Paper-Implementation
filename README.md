@@ -10,17 +10,6 @@ In contrast to the paper which uses Qiskit, these implementations are done using
 Holmes, Z., Coble, N. J., Sornborger, A. T., & Subaşı, Y. (2023). Nonlinear transformations in quantum computation. _Phys. Rev. Res._, 5(1), 013105. [DOI: 10.1103/PhysRevResearch.5.013105](https://link.aps.org/doi/10.1103/PhysRevResearch.5.013105)
 
 
-## Prerequisites and Installation
-
-## Usage and Examples
-
-Provide instructions on how to use the implementation, including example commands or scripts.
-
-### Example Input
-### Example Output
-
-## Code Explanation
-
 ### Quantum Hadamard Product (QHP.ipynb)
 
 This Jupyter notebook implements the Quantum Hadamard Product algorithm from the paper "On nonlinear transformations in quantum computation".
@@ -50,7 +39,7 @@ The two notebooks demonstrate implementations of key quantum algorithms from the
 
 ## Results and Comparisons (WIP)
 
-This is still a WIP as I learn how to properly leverage PennyLane's library to output measurements of the weighted states (i.e. using qml.density_matrix which doesn't support mixed state usage vs qml.counts which I am unsure of how to calculate variance from)
+This is still a WIP as I learn how to properly leverage PennyLane's library to output measurements of the weighted states (i.e. using qml.density_matrix which doesn't support mixed state usage with finite shots vs qml.counts which I am unsure of how to calculate variance from)
 
 
 
