@@ -26,7 +26,7 @@ The Quantum Hadamard Product takes two input quantum states \$\rho(0)\$ and \$\r
 
 This Jupyter notebook implements the Generalized Quantum Transpose algorithm from the same paper.
 
-The Generalized Quantum Transpose takes an input state $\rho$ and ancilla state $\sigma$ and outputs the weighted state $\sigma \dot \rho^T$ where $\rho^{T}$ is the transpose of $\rho$.
+The Generalized Quantum Transpose takes an input state $\rho$ and ancilla state $\sigma$ and outputs the weighted state \$\sigma \dot \rho^T\$ where $\rho^{T}$ is the transpose of $\rho$.
 
 #### Key points:
 
