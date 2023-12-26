@@ -4,6 +4,8 @@ This repository provides implementations of basic nonlinear quantum subroutines 
 
 In contrast to the paper which uses Qiskit, these implementations are done using the PennyLane quantum machine learning library, providing an alternative implementation. Additionally, could be building block for pennylane custom operator in the future. More broadly, advancing techniques to perform nonlinear transformations on quantum states, this research aims to enable more powerful quantum algorithms to impact quantum machine learning.
 
+Note: This repository is an attempt to build in public, as such it is not perfect but the goal is to improve and if anyone sees this and has constructive feedback, I am welcome to it!
+
 [//]: # (TODO: add reference to QML's issue with inefficient Backpropagation)
 
 ## Paper Reference
