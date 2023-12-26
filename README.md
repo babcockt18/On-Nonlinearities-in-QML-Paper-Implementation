@@ -19,7 +19,7 @@ The Quantum Hadamard Product takes two input quantum states \$\rho(0)\$ and \$\r
 #### Key points:
 
 - Implements the circuit shown in Fig. 2 of the paper using PennyLane.
-- Can be iterated to take powers of a state, as shown in Fig. 3.
+- Can be iterated to take powers of a state, as shown in Fig. 3 of the paper.
 - Convergence analysis shows absolute error remains constant but relative error increases with power.
 
 ### Generalized Quantum Transpose (GQT.ipynb)
@@ -30,8 +30,8 @@ The Generalized Quantum Transpose takes an input state $\rho$ and ancilla state 
 
 #### Key points:
 
-- Implements the circuit shown in Fig. 4 using PennyLane.
-- SWAP operator measurement implemented as shown in Fig. 5 in the paper.
+- Implements the circuit shown in Fig. 4 of the paper using PennyLane.
+- SWAP operator measurement implemented as shown in Fig. 5 of the paper.
 - Can be used to implement powers of a state, but convergence is slower than direct QHP algorithm.
 - Related to quantum teleportation algorithm as discussed in Appendix C of the paper.
 
